@@ -41,7 +41,7 @@ Route::get('categoria/teste-tree', [
     ]);
 
 
-Route::post('produto/{id}', [
+Route::post('produto/avaliar/{id}', [
         'as' => 'produto.avaliar',
         'uses' => 'ProdutoController@avaliar'
     ]);

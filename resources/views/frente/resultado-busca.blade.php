@@ -37,6 +37,7 @@
             <td>{{$produto->id}}</td>
             <td>{{$produto->qtde_estoque}}</td>
             <td class="text-right">
+        
                 {{number_format($produto->preco_venda, 2, ',', '.')}}
             </td>
         </tr>

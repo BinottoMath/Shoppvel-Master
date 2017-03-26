@@ -13,7 +13,8 @@
 
         <!-- Bootstrap core CSS -->
         <link href="{{asset('css/app.css')}}" rel="stylesheet">
-        <link href="/css/treeview.css" rel="stylesheet">
+        <link href="{{asset('bootstrap/css/treeview.css')}}" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
         
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -21,6 +22,7 @@
 
         <!-- Custom styles for this template -->
         <link href="justified-nav.css" rel="stylesheet">
+        <link href="bootstrap-cyborg/bootstrap.min.css" rel="stylesheet">
 
         <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
         <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
